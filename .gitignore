@@ -1,0 +1,24 @@
+# Big data files — kept local, never pushed to GitHub
+# See how-to-think-about-large-data-and-git in the portfolio-content notes
+data/clean_reviews.csv
+data/drugsComTrain_raw.csv
+data/drugsComTest_raw.csv
+data/Archive*/
+
+# macOS zip artifacts
+__MACOSX/
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
